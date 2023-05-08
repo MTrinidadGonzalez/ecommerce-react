@@ -2,3 +2,24 @@
     background-color: salmon;
     color: white;
 }
+body{
+    background-color: black;
+}
+
+@media (max-width: 768){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contentCards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+

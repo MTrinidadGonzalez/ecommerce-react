@@ -51,7 +51,7 @@ const quantityPreItem= getQuantityById(id)
   return (
     <>
     <Col>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} className='my-3'>
       <Card.Img variant="top" src={img} alt={description} />
       <Card.Body>
         <Card.Title>{description}</Card.Title>

@@ -70,8 +70,8 @@ function ProductsItemDetail(){
     return(<>
 <Container>
     <Row>
-        <Col>
-        <Card style={{ width: '18rem' }}>
+        <Col >
+        <Card style={{ width: '18rem' }} >
       <Card.Img variant="top" src={product.img} alt={product.description} />
       <Card.Body>
         <Card.Title>{product.description}</Card.Title>

@@ -4,6 +4,7 @@ import ProductsItems from '../ProductsItems/ProductsItems'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import { useParams } from 'react-router-dom'
+import '../../styles/generalStyles.css'
 
 function ProductsItemsContainer(){
     const [products, setProducts]= useState([])
@@ -19,7 +20,7 @@ function ProductsItemsContainer(){
     return(<>
    
 
-   <Container className='container-fluid'>
+   <Container className='container-fluid contentCards'>
         <Row>
         {products.map(p=> <ProductsItems key={p.id} id={p.id} img={p.img} description={p.description} price={p.price} /> )}
         </Row>

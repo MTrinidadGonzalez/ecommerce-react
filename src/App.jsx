@@ -5,6 +5,7 @@ import ProductsItemDetail from './components/ProductsItemDetail/ProductsItemDeta
 import NavBar from './components/NavBar/NavBar'
 import Cart from './components/Cart/Cart'
 import { CartProvider } from './components/context/CartProvider'
+import './styles/generalStyles.css'
 function App() {
 
   return (
