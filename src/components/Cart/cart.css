@@ -1,0 +1,18 @@
+.divCArtContainer{
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 6px;
+}
+.itemCart{
+    border: 1px solid salmon;
+    background-color: salmon;
+    color: white;
+    padding: 20px;
+    width: 90%;
+    margin: 10px;
+    border-radius: 6px;
+}
