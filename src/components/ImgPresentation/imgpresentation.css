@@ -1,0 +1,11 @@
+
+.presContainer{
+    width: 100%;
+  /* background-image: radial-gradient(rgb(132, 87, 62),rgb(132, 90, 65),rgb(), rgb(244,233,222));*/
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+   
+}

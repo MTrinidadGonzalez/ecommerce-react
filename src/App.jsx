@@ -6,6 +6,9 @@ import NavBar from './components/NavBar/NavBar'
 import Cart from './components/Cart/Cart'
 import { CartProvider } from './components/context/CartProvider'
 import './styles/generalStyles.css'
+import ImgPresentation from './components/ImgPresentation/ImgPresentation'
+
+
 function App() {
 
   return (
@@ -13,6 +16,7 @@ function App() {
     <BrowserRouter>
     <CartProvider>
     <NavBar/>
+    <ImgPresentation/>
     <Routes>
       <Route path='/' exact element={<ProductsItemsContainer/>} />
       <Route path='/product/:id' exact element={<ProductsItemDetail/>}/>
